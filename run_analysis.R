@@ -1,4 +1,4 @@
-# version 1, 26 Sept 2015, author Leonard Fister
+# version 1, 27 Sept 2015, author Leonard Fister
 #
 # comments:
 #
@@ -111,10 +111,9 @@ print("column averages for each subject and activity computed")
 #write processed data
 out.file <- "HAR_averages.txt"
 print(paste("writing data to",out.file))
-write.table(ha_ms_mean,out.file)
+write.table(ha_ms_mean,out.file, row.names=TRUE)
 print("export done")
 #further use with
-#test_import <- read.table("HAR_averages.txt",header= TRUE, check.names=FALSE)
-
+test_import <- read.table("HAR_averages.txt",header= TRUE, check.names=FALSE)
 print("end of script")
 ##############################################

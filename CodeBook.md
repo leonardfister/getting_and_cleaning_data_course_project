@@ -1,7 +1,7 @@
 #CodeBook for run_analysis.R, HAR_averages.txt
 
 ##version details
-last modified 25 Sept 2015, author Leonard Fister
+last modified 27 Sept 2015, author Leonard Fister
 
 run_analysis.R needs programming language R (created and tested with R version 3.1.2 (2014-10-31)) and the R-package plyr (available on CRAN, created with R version 3.1.2.)
 
